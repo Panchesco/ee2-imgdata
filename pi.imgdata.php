@@ -157,7 +157,7 @@
                 ?>
                 
                                 
-                Simple plugin to make PHP getimagesize() function data available as formatted html tag or strings.
+                Simple ExpressionEngine 2 plugin to make PHP getimagesize function data available as formatted html img tag or strings.
                 In template where you're outputting an image, insert following instead of html img tag.
                 
                 
