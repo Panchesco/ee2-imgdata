@@ -146,9 +146,9 @@
 
 
 
-				// ----------------------------------------  
-				// Usage  
-				// ----------------------------------------  
+		// ----------------------------------------  
+		// Usage  
+		// ----------------------------------------  
 
                   
                 function usage()  
@@ -158,11 +158,10 @@
                 
                                 
                 Simple ExpressionEngine 2 plugin to make PHP getimagesize function data available as formatted html img tag or strings.
-                In template where you're outputting an image, insert following instead of html img tag.
-                
-				------------------
-				TAGS:
-				------------------
+                                
+		------------------
+		TAGS:
+		------------------
                 
                 ### {exp:imgdata:tag url="http://url/of/image.jpg" alt="Alt String" html="any additional html you want added to the img tag"}
                 Returns HTML img tag with width, height, alt and any custom html
@@ -182,18 +181,18 @@
                 Returns image width and height attributes for img tag
                 Example: width="100" height="75"
                 
-				------------------
-				PARAMETERS:
-				------------------
+		------------------
+		PARAMETERS:
+		------------------
+		
+		###	url="http://url/to/my_image.jpg"
+		URL of img file
 				
-				###	url="http://url/to/my_image.jpg"
-				URL of img file
+		###	alt="Alt Text"
+		Alt text to add to img tag
 				
-				###	alt="Alt Text"
-				Alt text to add to img tag
-				
-				###	html='class="thumb"'
-				Any custom html, such as css or title attribute to add to img tag
+		###	html='class="thumb"'
+		Any custom html, such as css or title attribute to add to img tag
 
                 
                 <?php
