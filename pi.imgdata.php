@@ -160,8 +160,7 @@
                 Simple ExpressionEngine 2 plugin to make PHP getimagesize function data available as formatted html img tag or strings.
                 In template where you're outputting an image, insert following instead of html img tag.
                 
-                
-                ------------------
+				------------------
 				TAGS:
 				------------------
                 
@@ -183,9 +182,7 @@
                 Returns image width and height attributes for img tag
                 Example: width="100" height="75"
                 
-                
-                
-		        ------------------
+				------------------
 				PARAMETERS:
 				------------------
 				
