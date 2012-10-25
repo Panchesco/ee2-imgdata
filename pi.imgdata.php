@@ -112,6 +112,7 @@
 
 			/** 
 			 * Return "type" data string
+			 * Example: 2
 			 *
 			 * @return str
 			*/
