@@ -29,7 +29,14 @@
 			var $tag;
 			var $alt;
 			var $html;
+<<<<<<< HEAD
 			var $data =	array('width' => '','height' => '','type' => '','attr_str' => '');
+=======
+			var $data =	array(	'width'=>'',
+								'height'=>'',
+								'type'=>'',
+								'attr_str'=>'');
+>>>>>>> 186a1de002fe4b30ef8062bd3f663cd46a71b7ac
 			var $filename;
 		
 		
@@ -143,9 +150,15 @@
 
 
 
+<<<<<<< HEAD
 				// ----------------------------------------  
 				// Usage  
 				// ----------------------------------------  
+=======
+		// ----------------------------------------  
+		// Usage  
+		// ----------------------------------------  
+>>>>>>> 186a1de002fe4b30ef8062bd3f663cd46a71b7ac
 
                   
                 function usage()  
@@ -154,6 +167,7 @@
                 ?>
                 
                                 
+<<<<<<< HEAD
                 Simple plugin to make PHP getimagesize() function data available as formatted html tag or strings.
                 In template where you're outputting an image, insert following instead of html img tag.
                 
@@ -161,6 +175,13 @@
                 ------------------
 				TAGS:
 				------------------
+=======
+                Simple ExpressionEngine 2 plugin to make PHP getimagesize function data available as formatted html img tag or strings.
+                                
+		------------------
+		TAGS:
+		------------------
+>>>>>>> 186a1de002fe4b30ef8062bd3f663cd46a71b7ac
                 
                 ### {exp:imgdata:tag url="http://url/of/image.jpg" alt="Alt String" html="any additional html you want added to the img tag"}
                 Returns HTML img tag with width, height, alt and any custom html
@@ -180,6 +201,7 @@
                 Returns image width and height attributes for img tag
                 Example: width="100" height="75"
                 
+<<<<<<< HEAD
                 
                 
 		        ------------------
@@ -194,6 +216,20 @@
 				
 				###	html='class="thumb"'
 				Any custom html, such as css or title attribute to add to img tag
+=======
+		------------------
+		PARAMETERS:
+		------------------
+		
+		###	url="http://url/to/my_image.jpg"
+		URL of img file
+				
+		###	alt="Alt Text"
+		Alt text to add to img tag
+				
+		###	html='class="thumb"'
+		Any custom html, such as css or title attribute to add to img tag
+>>>>>>> 186a1de002fe4b30ef8062bd3f663cd46a71b7ac
 
                 
                 <?php
