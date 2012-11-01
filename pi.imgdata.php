@@ -148,7 +148,7 @@
 			
 				$this->filename = basename($this->url);
 			
-				list($this->data['width'],$this->data['height'],$this->data['type'],$this->data['attr_str']) = getimagesize($this->url);
+				list($this->data['width'],$this->data['height'],$this->data['type'],$this->data['attr_str']) = @getimagesize($this->url);
 				
 				return;
 			
