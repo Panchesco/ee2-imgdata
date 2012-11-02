@@ -197,8 +197,8 @@
                 
                 
 		        ------------------
-				PARAMETERS:
-				------------------
+			PARAMETERS:
+			------------------
 				
 				###	url="http://url/to/my_image.jpg"
 				URL of img file
